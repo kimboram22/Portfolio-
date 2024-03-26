@@ -5,7 +5,7 @@ const Skills: React.FC = () => {
   const skill = [
     [
       "React",
-      "TypeScript",
+      "Typescript",
       "JavaScript",
       "Tailwind",
       "CSS3",
@@ -16,8 +16,8 @@ const Skills: React.FC = () => {
     ["Nodejs", "Express", "Mysql", "sequelize", "Solidity", "web3.js"],
   ];
   return (
-    <div className="w-full bg-mainColor py-7">
-      <div className="w-2/3 mx-auto flex flex-col gap-3">
+    <div className="w-full bg-mainColor py-10 dark:text-black dark:bg-[#88B899]">
+      <div className="w-2/3 mx-auto flex flex-col gap-3 pb-3">
         <Title>Skills.</Title>
         {skill.map((v) => (
           <div key={v.toString()} className="flex flex-row gap-8 py-1 ">

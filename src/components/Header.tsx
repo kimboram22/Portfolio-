@@ -1,11 +1,12 @@
 import React from "react";
+import DarkModeBtn from "./DarkModeBtn";
 
 const Header: React.FC = () => {
   return (
-    <div className="bg-mainColor w-full py-10 px-24 flex justify-between">
-      <div>프론트엔드 지원자 김보람 입니다!</div>
-      <div>
-        <img src="" alt="" />
+    <div className="bg-mainColor w-full py-10 flex justify-between dark:text-black dark:bg-[#88B899]">
+      <div className="w-2/3 flex flex-row justify-between mx-auto">
+        <div>프론트엔드 지원자 김보람 입니다!</div>
+        <DarkModeBtn />
       </div>
     </div>
   );

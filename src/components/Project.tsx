@@ -46,7 +46,7 @@ const Project: React.FC<ProjectProps> = ({ project }) => {
         <div className="flex flex-row justify-center items-center gap-10 w-3/4 mx-auto">
           {github && (
             <a href={github} target="_blank" rel="noopener noreferrer">
-              <div className=" bg-mainColor rounded-2xl px-5 flex flex-row gap-3 py-2 items-center justify-center">
+              <div className=" bg-mainColor rounded-2xl px-5 flex flex-row gap-3 py-2 items-center justify-center dark:text-black dark:bg-[#88B899]">
                 Github
                 <img src="/icon/github.png" alt="" className="w-[28px] " />
               </div>
@@ -55,7 +55,7 @@ const Project: React.FC<ProjectProps> = ({ project }) => {
 
           {figma && (
             <a href={figma} target="_blank" rel="noopener noreferrer">
-              <div className=" bg-mainColor rounded-2xl px-5 flex flex-row gap-3 py-2 items-center justify-center">
+              <div className=" bg-mainColor rounded-2xl px-5 flex flex-row gap-3 py-2 items-center justify-center dark:text-black dark:bg-[#88B899]">
                 Figma
                 <img src="/icon/figma.png" alt="" className="w-[28px] " />
               </div>
@@ -66,12 +66,12 @@ const Project: React.FC<ProjectProps> = ({ project }) => {
       <div className="flex flex-col gap-4 w-full">
         {deploy ? (
           <a href={deploy} target="_blank" rel="noopener noreferrer">
-            <div className="bg-mainColor py-2 text-xl font-semibold px-2">
+            <div className="bg-mainColor py-2 text-xl font-semibold px-2 rounded-md dark:text-black dark:bg-[#88B899]">
               {projectName}
             </div>
           </a>
         ) : (
-          <div className="bg-mainColor py-2 text-xl font-semibold px-2">
+          <div className="bg-mainColor py-2 text-xl font-semibold px-2 rounded-md dark:text-black dark:bg-[#88B899]">
             {projectName}
           </div>
         )}
