@@ -13,7 +13,7 @@ const Skills: React.FC = () => {
       "Github",
       "Figma",
     ],
-    ["Node.js", "Express", "Mysql", "sequelize", "Solidity", "web3.js"],
+    ["Node.js", "Express", "Mysql", "Sequelize", "Solidity", "web3.js"],
     // ["Solidity", "web3.js"],
     // ["github", "figma"],
   ];
