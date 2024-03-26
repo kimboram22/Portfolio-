@@ -13,7 +13,7 @@ const Skills: React.FC = () => {
       "Github",
       "Figma",
     ],
-    ["Nodejs", "Express", "Mysql", "Sequelize", "Solidity", "web3.js"],
+    ["Nodejs", "Express", "Mysql", "sequelize", "Solidity", "web3.js"],
   ];
   return (
     <div className="w-full bg-mainColor py-7">
