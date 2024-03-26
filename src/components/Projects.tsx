@@ -64,6 +64,7 @@ const Projects: React.FC = () => {
       lessons: [
         "Tpyescript interfatce 설계 및 DTO 활용에 관해서 backend의 api문서(스웨거)를 참고해서 DTO interface를 typescript로 작성해서 객체의 요청과 응답의 내용을 팀원들과 공유하여 사용했습니다.",
         "컴포넌트를 동적으로 생성하는 과정에서 key값의 부재로 리랜더링이 일어나지 않았던 이슈를 해결하여 리액트 랜더링 구조를 이해할수 있었습니다.",
+        "페이지네이션, 이미지 슬라이드를 구현하는 과정에서 라이브러리를 사용하여 구현 시간 절약과 라이브러리를 사용하는 방법에 대한 이해도가 올라갔습니다.",
       ],
     },
     {
@@ -90,7 +91,8 @@ const Projects: React.FC = () => {
       ],
       lessons: [
         "프로젝트 초반에 MUI(Material-UI)를 선택했지만, 공식 문서만으로는 제한적이었고 커스터마이징이 어려워서 추가 조사와 개발이 필요했습니다. 그래서 테일윈드(Tailwind)를 결합하여 더 자유롭게 재사용과 커스터마이징을 할 수 있었습니다.",
-        "",
+        "테일윈드에서 제공하는 다크모드와 반응형 사용법을 프로젝트에 적용하여 시각적인 편의를 제공했습니다.",
+        "팀원의 도움으로 스크롤 이벤트를 사용하여 무한 스크롤을 구현하는 경험과 socket.io로 실시간 채팅하는 구현의 경험을 해볼수있었습니다.",
       ],
     },
     {
@@ -106,6 +108,7 @@ const Projects: React.FC = () => {
       deploy: "",
       features: [
         "메인, 각 게시판, admin 페이지 디자인 및 구현",
+        "Backend 서버 설정과 데이터 베이스 관리",
         "게시글 등록 및 수정, 삭제",
         "kakao login",
       ],
@@ -114,8 +117,9 @@ const Projects: React.FC = () => {
         [stacks.NodeJS, stacks.Sequelize, stacks.MySQL, stacks.JWT],
       ],
       lessons: [
-        "팀원 모두 프론트엔드와 백엔드 작업을 함께 수행하다보니 Github을 통한 협업 과정에서 충돌이 발생되었는데 코딩 컨벤션과 협업에 대한 중요성을 깨달았습니다.",
-        "html과 css만으로 작업을 하다보니 공통으로 사용되는 아이템을 수정해야하는 경우 전체 파일을 수정해야하는 번거로움을 겪었습니다.",
+        "팀원 모두 프론트엔드와 백엔드 작업을 함께 수행하다보니 Github을 통한 협업 과정에서 충돌이 발생되었는데 해결하는 과정을 통해 코딩 컨벤션과 협업에 대한 중요성을 깨달았습니다.",
+        "HTML과 CSS 만으로 작업을 하다보니 공통으로 사용되는 아이템을 수정해야하는 경우 HTML 파일 전체를 수정해야하는 번거로움을 겪었습니다.",
+        "백엔드 작업을 하면서 테스트를 먼저 진행한 다음 개발을 진행하는 TDD(test driven development) 학습해볼수있었습니다. ",
       ],
     },
     {
@@ -128,12 +132,15 @@ const Projects: React.FC = () => {
       github: "https://github.com/kimboram22/PPO_My_Bag",
       figma: "",
       deploy: "",
-      features: ["게시글 등록 및 수정, 삭제"],
+      features: ["게시글 등록 및 수정, 삭제", "Backend 서버 설정"],
       stack: [
         [stacks.JavaScript, stacks.html5, stacks.css3],
         [stacks.ExpressJS, stacks.Sequelize, stacks.MySQL, stacks.JWT],
       ],
-      lessons: [""],
+      lessons: [
+        "지난 프로젝트에서 부족했던 백엔드의 경험을 쌓기 위해 진행했던 프로젝트로 서버를 설정하고 통신하여 응답과 요청에 대한 데이터를 관리해볼수있었습니다.",
+        "",
+      ],
     },
     {
       projectName: "Board CRUD Project",
@@ -151,7 +158,11 @@ const Projects: React.FC = () => {
         [stacks.JavaScript, stacks.html5, stacks.css3],
         [stacks.ExpressJS, stacks.Sequelize, stacks.MySQL],
       ],
-      lessons: [""],
+      lessons: [
+        "기획 단계에서 막막했던 디자인 레이아웃 설계에 도움이 되는 디자인 툴인 피그마를 학습하여 와이어프레임을 그리고 팀원과 함께 공유하며, 구현하는 작업을 할수있었습니다.",
+        "Github를 사용하기 위하여 공식 문서를 참고하고 실제로 적용해보며 협업하는 과정에서 뿌듯함을 느꼈습니다.",
+        "메인페이지에 이미지 슬라이드를 넣기 위해 hard coding으로 구현하며 라이브러리의 효율성을 알게되었습니다.",
+      ],
     },
   ];
 
