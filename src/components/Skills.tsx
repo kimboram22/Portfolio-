@@ -17,7 +17,7 @@ const Skills: React.FC = () => {
   ];
   return (
     <div className="w-full bg-mainColor py-10 dark:text-black dark:bg-[#88B899]">
-      <div className="w-2/3 mx-auto flex flex-col gap-3 pb-3 tablet:w-5/6">
+      <div className="w-2/3 mx-auto flex flex-col gap-3 pb-3 tablet:w-5/6 mobile:w-full mobile:px-7">
         <Title>Skills.</Title>
         {skill.map((v) => (
           <div
