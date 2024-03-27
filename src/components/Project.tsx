@@ -1,4 +1,5 @@
 import React from "react";
+import { cn } from "../utils/cn";
 
 interface ProjectProps {
   project: {
@@ -34,9 +35,14 @@ const Project: React.FC<ProjectProps> = ({ project }) => {
   } = project;
 
   return (
-    <div className="flex flex-row gap-10 border-b pb-12 pt-8">
-      <div className="flex flex-col gap-7">
-        <div className=" bg-mainColor w-[400px] rounded-xl overflow-hidden">
+    <div
+      className={cn(
+        "flex flex-row gap-10 border-b pb-12 pt-8",
+        "tablet:flex-col mobile:flex-col"
+      )}
+    >
+      <div className="flex flex-col gap-7 tablet:justify-center tablet:items-center mobile:justify-center mobile:items-center">
+        <div className=" bg-mainColor w-[400px] rounded-xl overflow-hidden tablet:w-[450px] mobile:w-[280px]">
           <img src={img} alt="" className="w-full" />
         </div>
         <div>

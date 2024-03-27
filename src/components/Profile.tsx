@@ -4,7 +4,7 @@ import { Wrapper } from "./Common";
 const Profile: React.FC = () => {
   return (
     <Wrapper>
-      <div className="flex flex-row gap-20 items-center">
+      <div className="flex flex-row gap-20 items-center mobile:flex-col">
         <div className="w-[200px] h-[200px] rounded-full bg-mainColor">
           <img src="" alt="" />
         </div>

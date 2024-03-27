@@ -17,10 +17,13 @@ const Skills: React.FC = () => {
   ];
   return (
     <div className="w-full bg-mainColor py-10 dark:text-black dark:bg-[#88B899]">
-      <div className="w-2/3 mx-auto flex flex-col gap-3 pb-3">
+      <div className="w-2/3 mx-auto flex flex-col gap-3 pb-3 tablet:w-5/6">
         <Title>Skills.</Title>
         {skill.map((v) => (
-          <div key={v.toString()} className="flex flex-row gap-8 py-1 ">
+          <div
+            key={v.toString()}
+            className="flex flex-row gap-8 py-1 flex-wrap"
+          >
             {v.map((skillName) => (
               <div key={skillName} className="flex flex-col items-center gap-3">
                 <img
