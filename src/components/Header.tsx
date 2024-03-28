@@ -17,7 +17,9 @@ const Header: React.FC = () => {
           "mobile:w-full mobile:px-5"
         )}
       >
-        <div>프론트엔드 지원자 김보람 입니다!</div>
+        <div className="text-lg font-semibold">
+          프론트엔드 지원자 김보람 입니다!
+        </div>
         <DarkModeBtn />
       </div>
     </div>
