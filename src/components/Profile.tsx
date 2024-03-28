@@ -5,8 +5,8 @@ const Profile: React.FC = () => {
   return (
     <Wrapper>
       <div className="flex flex-row gap-20 items-center mobile:flex-col">
-        <div className="w-[200px] h-[200px] rounded-full bg-mainColor">
-          <img src="" alt="" />
+        <div className="w-[200px] h-[200px] rounded-full overflow-hidden">
+          <img src="/profile.jpg" alt="" className="w-full h-full" />
         </div>
         <div className="flex flex-col gap-2">
           <p>한줄소개 작성하기</p>
