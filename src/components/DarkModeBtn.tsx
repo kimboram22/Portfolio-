@@ -12,14 +12,14 @@ const DarkModeBtn: React.FC = () => {
     <>
       <button onClick={toggleDarkMode}>
         <img
-          src="/icon/darkmode_icon.png"
+          src="/icon/Moon.png"
           alt="darkmode_icon"
-          className={`w-[25px] h-[25px] ${darkMode ? "hidden" : ""} `}
+          className={`w-[35px] h-[35px] ${darkMode ? "hidden" : ""} `}
         />
         <img
-          src="/icon/lightmode_icon.png"
+          src="/icon/Sun.png"
           alt="lightmode_icon"
-          className={`w-[28px] h-[28px]  ${darkMode ? "" : "hidden"} `}
+          className={`w-[35px] h-[35px]  ${darkMode ? "" : "hidden"} `}
         />
       </button>
     </>
