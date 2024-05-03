@@ -49,12 +49,21 @@ const Project: React.FC<ProjectProps> = ({ project }) => {
           <p>{date}</p>
           <p>{role}</p>
         </div>
-        <div className="flex flex-row justify-center items-center gap-10 w-3/4 mx-auto">
+        <div className="flex flex-row justify-center items-center gap-3 w-full">
           {github && (
             <a href={github} target="_blank" rel="noopener noreferrer">
               <div className=" bg-mainColor rounded-2xl px-5 flex flex-row gap-3 py-2 items-center justify-center dark:text-black dark:bg-[#88B899]">
                 Github
                 <img src="/icon/github.png" alt="" className="w-[28px] " />
+              </div>
+            </a>
+          )}
+
+          {deploy && (
+            <a href={deploy} target="_blank" rel="noopener noreferrer">
+              <div className=" bg-mainColor rounded-2xl px-5 flex flex-row gap-3 py-2 items-center justify-center dark:text-black dark:bg-[#88B899]">
+                Link
+                <img src="/icon/deploy.png" alt="" className="w-[28px] " />
               </div>
             </a>
           )}

@@ -77,7 +77,7 @@ const Projects: React.FC = () => {
       github: "https://github.com/Stacker-Labs/KGA-React-Project",
       figma:
         "https://www.figma.com/file/ScjaLByPGIIM451UCdB09N/Stacker-Labs?type=design&node-id=0%3A1&mode=design&t=BjZzWFFzVir2acRT-1",
-      deploy: "https://eunjae.store/",
+      deploy: "https://stacker-labs.vercel.app/",
       features: [
         "Tailwind와 React recoil으로 다크 모드",
         "Search bar와 #(tags)를 사용하여 게시글 검색 페이지 구현",
